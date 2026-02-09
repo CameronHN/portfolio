@@ -865,6 +865,15 @@ textarea {
   color: #777;
 }
 
+#azure {
+  background: rgba(0, 127, 255, 0.2);
+}
+
+#aws {
+  background: rgba(255, 153, 0, 0.2);
+  color: #000000;
+}
+
 .mouse {
   width: 25px;
   height: 40px;
