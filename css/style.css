@@ -48,7 +48,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -858,17 +858,19 @@ textarea {
   font-size: 1.6rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 400;
   color: black;
 }
 
 #azure {
   background: rgba(0, 127, 255, 0.2);
+  text-decoration: underline;
 }
 
 #aws {
   background: rgba(255, 153, 0, 0.2);
   color: #000000;
+  text-decoration: underline;
 }
 
 .mouse {

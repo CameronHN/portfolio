@@ -8,16 +8,18 @@
     font-size: 1.6rem;
     background: rgba(#999, 0.2);
     border-radius: $commonBorderRadius;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
   }
 }
 
 #azure {
   background: rgba(#007fff, 0.2);
+  text-decoration: underline;
 }
 
 #aws {
   background: rgba(#ff9900, 0.2);
   color: #000000;
+  text-decoration: underline;
 }
