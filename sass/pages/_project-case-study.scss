@@ -1,6 +1,7 @@
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       to right,
       rgba($themeClrPrimary, 0.8),
       rgba($themeClrPrimary, 0.8)
@@ -74,7 +75,7 @@
     &-para {
       font-size: 1.8rem;
       line-height: 1.7;
-      color: grey;
+      color: black;
       margin-bottom: 2rem;
     }
   }
@@ -93,7 +94,7 @@
       background: rgba(#999, 0.2);
       border-radius: $commonBorderRadius;
       font-weight: 600;
-      color: #777;
+      color: black;
     }
   }
   &__links {
