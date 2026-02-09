@@ -663,17 +663,14 @@ textarea {
   color: #960202;
 }
 .header__logo-img-cont {
-  width: 5rem;
   height: 5rem;
-  border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #960202;
+  background: #fff;
 }
 @media only screen and (max-width: 56.25em) {
   .header__logo-img-cont {
-    width: 4.5rem;
-    height: 4.5rem;
+    height: 4rem;
     margin-right: 1.2rem;
   }
 }
