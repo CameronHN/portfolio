@@ -36,3 +36,18 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+const greetings = ["morning", "afternoon", "evening", "day"];
+const hour = new Date().getHours();
+if (hour >= 0 && hour <= 11) {
+  document.getElementById('greeting').innerHTML = greetings[0];
+}
+else if (hour >= 12 && hour <= 17) {
+  document.getElementById('greeting').innerHTML = greetings[1];
+}
+else if (hour >= 18 && hour <= 23) {
+  document.getElementById('greeting').innerHTML = greetings[2];
+}
+else {
+  document.getElementById('greeting').innerHTML = greetings[3];
+}
