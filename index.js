@@ -60,8 +60,19 @@ function initHeaderInteractions() {
   });
 }
 
+// footer.js
+function loadFooter() {
+  fetch("footer.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("footer").innerHTML = data;
+    })
+    .catch((error) => console.error("Error loading footer:", error));
+}
+
 // Run automatically when the page loads
 document.addEventListener("DOMContentLoaded", loadHeader);
+document.addEventListener("DOMContentLoaded", loadFooter);
 
 const greetings = ["morning", "afternoon", "evening", "day"];
 const hour = new Date().getHours();
