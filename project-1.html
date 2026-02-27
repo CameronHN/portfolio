@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Case Study of Project 1</title>
+  <title>Resume Management System</title>
   <meta name="description" content="Case study page of Project" />
 
   <link rel="stylesheet" href="css/style.css" />
@@ -21,16 +21,12 @@
 
   <section class="project-cs-hero">
     <div class="project-cs-hero__content">
-      <h1 class="heading-primary">Project 1</h1>
+      <h1 class="heading-primary">Ostentans</h1>
       <div class="project-cs-hero__info">
         <p class="text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          in numquam incidunt earum quaerat cum fuga, atque similique natus
-          nobis sit.
+          Ostentans is a resume management system that allows a user to manage their resume data, generate PDF
+          resumes, and save them for future reference.
         </p>
-      </div>
-      <div class="project-cs-hero__cta">
-        <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
       </div>
     </div>
   </section>
@@ -38,50 +34,65 @@
     <div class="main-container">
       <div class="project-details__content">
         <div class="project-details__showcase-img-cont">
-          <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Project Image"
-            class="project-details__showcase-img" />
+          <iframe src="https://drive.google.com/file/d/1UgzsCpM7d1efmq6xqpOeslhvmL64_s1l/preview"
+            class="project-details__showcase-img" height="450" allowfullscreen="true"></iframe>
+          <iframe src="https://drive.google.com/file/d/1gBm44g75FWwxhgeAJ8vWipPOIbv-Kdhj/preview"
+            class="project-details__showcase-img" height="450" allowfullscreen="true"></iframe>
         </div>
         <div class="project-details__content-main">
           <div class="project-details__desc">
-            <h3 class="project-details__content-title">Project Overview</h3>
-            <p class="project-details__desc-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              alias tenetur minus quaerat aliquid, aut provident blanditiis,
-              deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-              mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Neque alias tenetur minus quaerat
-              aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-              eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-              ullam rem?
-            </p>
-            <p class="project-details__desc-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              alias tenetur minus quaerat aliquid, aut provident blanditiis,
-              deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-              mollitia laborum corrupti ullam rem?
-            </p>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Problem</h3>
+              <p class="project-details__desc-para">
+                Job hunting typically requires tailoring a CV for each role, which often leads to dozens of nearly
+                identical
+                documents, nested folders, and inconsistent formatting. Candidates also have to re-enter the same
+                information
+                into different application portals, making it hard to quickly customise a resume for a specific job.
+              </p>
+              <h3 class="project-details__content-title">Solution</h3>
+              <p class="project-details__desc-para">
+                Ostentans solves this by centralising resume data in one place. Users capture their details once, then
+                compose
+                role-specific resumes from that data, generate consistently styled PDFs, and safely update or delete
+                information
+                without worrying about breaking previously saved resumes.
+              </p>
+              <h3 class="project-details__content-title">Summary</h3>
+              <p class="project-details__desc-para">
+                The system functions as a full resume management platform, allowing users to create, view, update, and
+                delete
+                personal, education, work experience, and skills records, keeping their profile current while
+                maintaining a
+                clean history of tailored resumes.
+              </p>
+              <p class="project-details__desc-para">
+                The resume styling was manually created by recreating the structure of ATS-friendly resumes. PDF
+                generation is created using <a href="https://www.questpdf.com/" target="_blank"
+                  style="text-decoration: underline;">QuestPDF</a>.
+              </p>
+            </div>
           </div>
           <div class="project-details__tools-used">
             <h3 class="project-details__content-title">Tools Used</h3>
             <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">ASP.Net Core</div>
+              <div class="skills__skill">ASP.Net Core Identity</div>
+              <div class="skills__skill">Entity Framework Core</div>
+              <div class="skills__skill">SQL Server</div>
               <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">TypeScript</div>
               <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
+              <div class="skills__skill">REST API</div>
+              <div class="skills__skill">QuestPDF</div>
             </div>
           </div>
           <div class="project-details__links">
-            <h3 class="project-details__content-title">See Live</h3>
-            <a href="#" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live Link</a>
-            <a href="#" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Code Link</a>
+            <h3 class="project-details__content-title">Repository</h3>
+            <a href="https://github.com/CameronHN/1neb-internship-poe"
+              class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Backend Project</a>
+            <a href="https://github.com/CameronHN/1neb-internship-poe-frontend/tree/main/ostentans-poe"
+              class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Frontend Project</a>
           </div>
         </div>
       </div>
